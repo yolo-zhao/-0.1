@@ -1,0 +1,182 @@
+/* 整体样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* 导航栏 */
+nav {
+    background-color: #fff; /* 白色背景 */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* 左右两边对齐 */
+    align-items: center;
+    border-bottom: 2px solid #eee; /* 底部加一条浅色分隔线 */
+}
+/* Logo 样式 */
+.logo a {
+    font-size: 24px;
+    color: #6a2c76;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* 导航链接 */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6a2c76;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff5722; /* 悬停时颜色变为橙色 */
+}
+
+/* 搜索栏样式 */
+.search-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #e64a19;
+}
+
+/* 搜索框 - 居中显示 */
+.search-section {
+    padding: 20px 0;
+    background-color: white;  /* 白色背景 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影，使其突出 */
+    text-align: center;
+}
+
+.search-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FF5722;  /* 橙色按钮 */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #E64A19;
+}
+
+/* 首页大标题区 - 白色到桃色渐变背景 */
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, white 0%, #FFCCCB 100%);  /* 白色到桃色的渐变 */
+    color: #6a2c76;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .btn-main {
+    background-color: #FF5722;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn-main:hover {
+    background-color: #E64A19;
+}
+
+/* 关爱残障人士页面的背景渐变 */
+#home {
+    background: linear-gradient(to bottom, #FFFFFF, #FFCC80); /* 从白色到杏色的渐变 */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* 包容性教育页面的背景渐变 */
+#education {
+    background: linear-gradient(to bottom, #FFCC80, #FFA500); /* 从杏色到橙色的渐变 */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* 政策改革页面的背景渐变 */
+#policy {
+    background: linear-gradient(to bottom, #FFA500, #FF7F50); /* 从橙色到珊瑚色的渐变 */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* 意识提升页面的背景渐变 */
+#awareness {
+    background: linear-gradient(to bottom, #FF7F50, #FF6347); /* 从珊瑚色到红色的渐变 */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* 底部 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
